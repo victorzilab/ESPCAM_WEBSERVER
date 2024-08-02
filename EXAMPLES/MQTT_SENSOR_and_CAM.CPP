@@ -8,11 +8,11 @@
 #include "camera_pins.h"
 
 // WiFi credentials
-const char* ssid = "TECNOTRON";
-const char* password = "5A5E6CX1@p";
+const char* ssid = "YOURSSID";
+const char* password = "YOURPASSWORD";
 
 // MQTT broker settings
-const char* mqtt_server = "homebroker.local";
+const char* mqtt_server = "<BROKER_IP>";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "sensor/hcsr04";
 
